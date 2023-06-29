@@ -1,0 +1,42 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;  
+}
+
+.row{
+    
+}
+
+button{
+    box-sizing: border-box;
+    padding: 14px 0px;
+    width: 74px;
+    margin: 5px 0px;
+}
+
+.equals{
+    width: 153px;
+}
+
+.display{
+    text-align: right;
+
+    width: 300px;
+    margin-bottom: 12px;
+}
+
+.input,.output{
+    border: 1px solid blue;
+    width: 300px;
+}
+
+.input{
+    height: 25px;
+}
+
+.output{
+    height: 35px;
+}
